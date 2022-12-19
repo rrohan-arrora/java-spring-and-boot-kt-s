@@ -1,5 +1,8 @@
 package com.spring.basics.springbasics;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class BinarySeachImpl {
 	
 	SortAlgorithm sortAlgorithm;

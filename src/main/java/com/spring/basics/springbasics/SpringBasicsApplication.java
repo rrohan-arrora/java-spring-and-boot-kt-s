@@ -5,6 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class SpringBasicsApplication {
+	
+	// THINGS REQUIRED BY THE SPRING:
+	//what are the beans required to manage by the spring
+	// what are the dependencies required by the beans
+	// where to search for the beans
 
 	public static void main(String[] args) {
 		BinarySeachImpl binarySearch = new BinarySeachImpl(new QuickSortAlgorithm());
